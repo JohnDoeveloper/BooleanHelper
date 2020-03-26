@@ -17,7 +17,7 @@ fun main() {
 
     /**
     But let's say we know for a certain the user is not a human but is instead a well written bot, so we want to let the program know the user is not human.
-    We can do that in two ways, either by saying userIsHuman = false or by flipping the value which we will now demonstrate
+    We can do that in two ways, either by saying userIsHuman = false or by flipping the variable which we will now demonstrate
      **/
 
     userIsHuman = !userIsHuman
@@ -39,7 +39,7 @@ fun main() {
 
     var userIsNice = true
 
-    if (userIsHuman && userIsHuman) println(
+    if (userIsHuman && userIsNice) println(
         "Third print:\n" +
                 "Hello nice human, you get candy"
     )
